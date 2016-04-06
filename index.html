@@ -1,0 +1,225 @@
+<html>
+<head>
+    <title>Romulo e Ricardo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="logo.png" />
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/jAlert-master/src/jAlert-v3.css" />
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/controls.js"></script>
+    <script src="bower_components/jAlert-master/src/jAlert-v3.js"></script>
+    <script src="bower_components/jAlert-master/src/jAlert-functions.js"></script>
+    <script src="bower_components/imageLightbox/imagelightbox.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body bgcolor='black'>
+    <!--
+	<div id="debug" style="position:fixed;top:50%;right:2%;padding:10px;background:#F00;z-index:100;color:#fff;font-weight:bold;">debug</div>
+    	 INÍCIO DO CABEÇALHO E MENU
+    -->
+    <div class="row" id="home">
+		<div class="col-md-12 header">
+	    	<img src="img/logo.png">
+		</div>      
+	</div>
+	<div class="row" id="menu">
+        <nav class="navbar navbar-default">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#home"></a>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#fotos">Fotos</a></li>
+                <li><a href="#videos">Vídeos</a></li>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#contato">Contato</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+    </div>      
+    <!--
+    	 INÍCIO DO SLIDE
+    -->
+    <div class="row">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img class="img-responsive" src="img/slide01.1400px.jpg">
+                  <div class="carousel-caption">
+                  </div>
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="img/slide01.1400px.jpg">
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="img/slide01.1400px.jpg">
+              <div class="carousel-caption">
+              </div>
+            </div>
+          </div>
+        
+          <!-- Controls -->
+          <a class="left carousel-control" href="javascript:;" data-target="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="javascript:;" data-target="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </div>
+    <!--
+    	 INÍCIO DA AGENDA
+    -->
+    <div class="row agenda" id="agenda">
+    	<h2>AGENDA <span>FEVEREIRO</span></h2>
+        <div class="container data">
+            <div class="col-md-3">
+                <div class="bg-calendario">
+                    06
+                </div>
+                <h3>MONTE <span>ALTO</span></h3>
+            </div>
+            <div class="col-md-3">
+            	<div class="bg-calendario">
+                	07
+                </div>
+                <h3>FIGUEIRA</h3>
+            </div>
+            <div class="col-md-3">
+            	<div class="bg-calendario">
+                	08
+                </div>
+                <h3>ARRAIAL <span>DO CABO</span></h3>
+            </div>
+            <div class="col-md-3">
+            	<div class="bg-calendario">
+                	09
+                </div>
+                <h3>ARRAIAL <span>DO CABO</span></h3>
+            </div>
+        </div>
+    </div>
+    <!--
+    	 INÍCIO DO FOTOS
+    -->
+    <div class="row fotos" id="fotos">
+    	<h2>FOTOS</h2>
+        <div class="container hidden-xs hidden-sm">
+        	<div class="container itens">
+                <div class="col-md-4">
+                    <img src="img/foto1.jpg" class="foto01">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/foto2.jpg" class="foto02">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/foto1.jpg" class="foto01">
+                </div>
+            </div>
+        	<div class="container itens">
+                <div class="col-md-4">
+                    <img src="img/foto2.jpg" class="foto02">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/foto1.jpg" class="foto01">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/foto2.jpg" class="foto02">
+                </div>
+              </div>  
+        </div>
+        <div class="container visible-xs visible-sm">
+        	<div class="container itens">
+                <div class="col-md-1">
+                    <img src="img/foto1.jpg" class="foto01">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/foto2.jpg" class="foto02">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/foto1.jpg" class="foto01">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/foto2.jpg" class="foto02">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/foto1.jpg" class="foto01">
+                </div>
+                <div class="col-md-1">
+                    <img src="img/foto2.jpg" class="foto02">
+                </div>
+              </div>  
+        </div>
+    </div>
+    <!--
+    	 INÍCIO DO FOTOS
+    -->
+    <div class="row videos" id="videos">
+    	<h2>VÍDEOS</h2>
+        <div class="container">
+			<img src="img/videos.jpg">
+        </div>
+    </div>
+
+    <!--
+    	 INÍCIO DO BIO
+    -->
+    <div class="row bio" id="bio">
+    	<h2>BIO</h2>
+		<p>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+            <br />
+            <br />
+            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+            <cite>
+                "Humildade, trabalho, diversão e amor à vida, são os ingredientes da dupla dos irmãos <strong>Rômulo <span>&amp;</span> Ricardo</strong>."
+            </cite>
+        </p>
+    </div>
+
+    <!--
+    	 INÍCIO DO RODAPÉ
+    -->
+    <div class="row" id="contato">
+		<div class="container rodape">
+            <div class="social">
+                <div class="face"></div>
+                <div class="twit"></div>
+                <div class="what"></div>
+                <div class="goog"></div>
+                <div class="inst"></div>
+                <div class="booo"></div>
+                <div class="link"></div>
+                <div class="tube"></div>
+            </div>
+            <span class="copy">&copy; 2015 - Rômulo & Ricardo - All rights reserved</span>
+            <span class="glyphicon glyphicon-map-marker"></span>Av. Feliciano Sodré 7R0<br>
+            Teresópolis<br>
+            <span class="glyphicon glyphicon-earphone"></span>(21) 9999-9999
+        </div>
+    </div>
+</body>
+</html>
